@@ -1,0 +1,222 @@
+        body, html {
+      height: 100%;
+      margin: 0;
+    }
+  
+    .navbar-container{
+        background-color:#F37022; 
+        margin:0;
+        padding:0;
+        height:6.6%;
+        position:inherit;
+    }
+    .logout{
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+        border: 2px solid #ee6700;
+        background-color: #ee6700;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top:1%;
+        padding-bottom: 1%;
+        box-shadow: 4px 4px 3px 3px #ccc;
+        border-radius: 15px;
+        
+    }
+/*    a:hover{
+        background-color: #000066;
+        width: 20%;
+    }*/
+.col-md-4{
+    padding-top: 3%;
+    padding-left: 15.4%;
+}
+.col-md-5{
+    width: 50%;
+}
+    @media (max-width: 1744px) {
+        .navbar-container{
+            height:8%;
+        } 
+    }
+    
+
+      @media screen and(min-width: 1700px) and (max-width:1744px){
+       .col-md-5{
+            width:20%;
+        } 
+    }
+    .logo{
+        width: 4%;
+        height:20%;
+        padding-left:17%;
+        
+          
+    }
+    .iocl-logo{
+        height:26%;
+        width:5%;
+        border-radius: 85px;
+    }
+    .navbar-title{
+        margin-left: 16.7%;
+        /*margin-top: 1%;*/
+        color: #000066;
+        font-size: 18px;
+        /*position:fixed;*/
+
+    }
+    .subtitle{
+        margin-left: 15%;
+        /*margin-top: 1%;*/
+        color: #000066;
+        font-size: 14px;
+    }
+    .about{
+       margin-left: 8%  
+    }
+    
+html,
+body {
+    overflow-x: hidden;
+    color: #000;
+    -ms-overflow-style: scrollbar;
+    -webkit-font-smoothing: antialiased
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.ct-footer {
+    background-color: #fff;
+    padding-top: 30px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.ct-footer-pre {
+    width: 100%;
+    /*padding-bottom: 55px;*/
+    border-bottom: 1px solid #000066;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
+}
+
+
+.ct-footer-list {
+    /*padding: 50px 0;*/
+    list-style: none;
+    padding-left: 0;
+    /*display: table;*/
+    width: 100%;
+    /*border-bottom: 1px solid #555;*/
+    /*border-bottom: 1px solid #000066;*/
+}
+
+@media (max-width:479px) {
+    .ct-footer-list {
+        padding: 20px 0
+    }
+}
+
+@media (min-width:1200px){
+    .ct-footer-list > li {
+        width: 20%;
+        display: table-cell;
+        vertical-align: top
+    }
+    .ct-footer-list > li:last-child {
+        width: 20%
+    }
+    .logo{
+        width: 4%;
+        height:20%;
+        padding-left:17.4%;  
+    }
+    .col-md-4{
+        padding-top: 3%;
+        padding-left: 16%;
+    }
+}
+@media (min-width:768px) and (max-width:1000px){
+    .iocl-logo{
+        width:6%;
+    }
+}
+@media (min-width:1000px) and (max-width:1100px){
+    .iocl-logo{
+        width:6%;
+    }
+}
+@media (min-width:768px) and (max-width:1199px) {
+    .ct-footer-list > li {
+        width: 50%
+    }
+    
+}
+
+@media (min-width:480px) and (max-width:767px) {
+    .ct-footer-list > li {
+        width: 50%;
+ 
+    }
+    .iocl-logo{
+        width:8%;
+    }
+}
+
+@media (max-width:479px) {
+    .ct-footer-list > li {
+        width: 10%;
+        text-align: center
+    }
+}
+@media (max-width:1199px) {
+    .ct-footer-list > li {
+        display: inline-block;
+        /* float: left */
+    }
+}
+
+.ct-footer-list > li .ct-footer-list-header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000066;
+    font-size: 30px
+}
+
+.ct-footer-list > li ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ct-footer-list > li ul li a {
+    color: #000;
+}
+
+.ct-footer-list > li ul li a:hover {
+    text-decoration: underline;}
+/*
+@media (min-width:1200px) {
+    .ct-footer-pre {
+        display: table
+    }*/
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+.login{
+    margin-left: 25%;
+    margin-top: 12%;
+}
+.image{
+	height:50%;
+	width:70%;
+	margin-left: 17%;
+        margin-bottom: 4%;
+	border-radius: 4px;
+	
+}
+.main-content{
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	margin: 5em auto;
+	display: flex;
+}
+.company__info{
+	background-color: #ee7600;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+.fa-android{
+	font-size:3em;
+}
+/*.container-fluid{
+        width: 140%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+}*/
+
+@media only screen and (min-width:1500px)and  (max-width:1600px){
+        #login-container{
+            width: 115%;
+        }
+}
+@media only screen and (min-width:1300px) and (max-width:1500px){
+    #login-container{
+        width: 130%;
+    }
+    
+}
+
+@media only screen and (min-width:1100px) and (max-width:1300px) {
+    #login-container{
+        width:145%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+	.main-content{width: 90%;}
+	.company__info{
+		display: none;
+	}
+	.login_form{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+        .container-fluid{
+            width: 110%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+}
+
+@media screen and (min-width: 642px) and (max-width:770px){
+	.main-content{width: 70%;}
+}
+    .container-fluid{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .row > h2{
+        color:#000066;
+        padding: 0 2em;
+    }
+    .login_form{
+            background-color: #fff;
+            border-top-right-radius:20px;
+            border-bottom-right-radius:20px;
+            border-top:1px solid #ccc;
+            border-right:1px solid #ccc;
+    }
+    form{
+            padding: 0 3em;
+    }
+    .form__input{
+            width: 80%;
+            border:0px solid transparent;
+            border-radius: 0;
+            border-bottom: 1px solid #aaa;
+            padding: .25em .25em .5em;
+            outline:none;
+            margin:1.01em ;
+            transition: all .5s ease;
+    }
+    .form__input:focus{
+            border-bottom-color: #ee7600;
+            box-shadow: 0 0 5px rgba(0,80,80,.4); 
+            border-radius: 4px;
+    }
+    .btn{
+            transition: all .5s ease;
+            width: 70%;
+            border-radius: 30px;
+            color:#008080;
+            font-weight: 600;
+            background-color: #ee7600;
+            border: 1px solid #008080;
+            margin-top: 1.5em;
+            margin-bottom: 1em;
+            margin-left: 1em;
+    }
+    .btn:hover, .btn:focus{
+            background-color: #ee7600;
+            color:#fff;
+    }
+
+    .recaptcha{
+
+        margin-top: 20px;
+    }
+
+    @media screen and (min-width: 770px) and (max-width:800px){
+        .main-content{width: 170%;}
+	.company__info{
+		display: none;
+	}
+	.login_form{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+        .container-fluid{
+            width: 130%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
